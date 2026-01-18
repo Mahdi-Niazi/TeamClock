@@ -1,3 +1,4 @@
 function TimeRecord() {
-  alert('Time Record Started');
+  const snapTime = new Date();
+  alert('Time' + snapTime.toString());
 }
